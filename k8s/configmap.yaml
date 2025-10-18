@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: backend-config
-  namespace: dev
-data:
-  # Example: copy key=value pairs from ./backend/.env
-  DATABASE_URL: "mongodb://mongoadmin:secret@mongodb:27017/dbname"
